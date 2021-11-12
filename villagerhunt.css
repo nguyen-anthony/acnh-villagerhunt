@@ -1,0 +1,42 @@
+html {
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #923cb5;
+  background-image: linear-gradient(147deg, #923cb5 0%, #000000 99%);
+  background-size: 1000000% 1000000%;
+  animation: gradient 12s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.social-media {
+  width: 16px;
+  height: 16px;
+}
+
+.mainColumn,
+.islandNum {
+  background-color: darkmagenta;
+}
+
+.mainColumn {
+  width: 16em;
+}
